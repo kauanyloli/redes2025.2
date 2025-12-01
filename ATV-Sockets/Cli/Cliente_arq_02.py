@@ -1,7 +1,7 @@
 from encodings import utf_8
 import socket
 
-HOST = '127.0.0.1'
+HOST = '10.25.1.45'
 PORT = 60000
 
 udp_socket = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
@@ -37,3 +37,4 @@ else:
 
 udp_socket.close()
 print('Fim Cliente')
+
